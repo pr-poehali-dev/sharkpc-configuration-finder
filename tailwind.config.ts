@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'orbitron': ['Orbitron', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +64,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SharkPc Gaming Theme Colors
+				shark: {
+					50: '#f3f1ff',
+					100: '#ede9fe',
+					200: '#ddd6fe',
+					300: '#c4b5fd',
+					400: '#a78bfa',
+					500: '#8b5cf6',
+					600: '#7c3aed',
+					700: '#6d28d9',
+					800: '#5b21b6',
+					900: '#4c1d95',
+					950: '#1e1b4b'
+				},
+				gaming: {
+					dark: '#1A1F2C',
+					darker: '#151A24',
+					purple: '#8B5CF6',
+					'purple-light': '#9b87f5',
+					'purple-dark': '#7c3aed',
+					cyan: '#06b6d4',
+					green: '#10b981',
+					orange: '#f97316'
 				}
 			},
 			borderRadius: {
